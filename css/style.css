@@ -1,8 +1,55 @@
-#board {
-  margin-top: 10px;
+
+header {
+	text-align: center;
+	font-size: 30px;
+	color: gold;
+	padding: 30px 30px 30px 30px;
 }
 
-.box {
-  border: 1px solid black;
-  height: 150px;
+#gameboard {
+	background-color: white;
+	width: 360px;
+	display: flex;
+	border: box;
+	margin:0 auto;
+
 }
+
+.row {
+  clear: both;
+  overflow: hidden;
+}
+
+.column {
+	float: left;
+	width: 120px;
+	height: 120px;
+	border: 1px solid black;
+	margin: 0 auto;
+	cursor: pointer;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 35px;
+}
+
+.bottom {
+	border-bottom: 1px solid black;	
+}
+
+.right {
+	border-right:1px solid black;
+}
+
+.x {    
+    background-color: #D4AF37;
+}
+.o {  
+    background-color: #000080;
+    
+ }
+ .image {
+ 	width: 70px;
+	height: 70px;
+ }
+
+	
